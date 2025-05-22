@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -537,7 +538,7 @@
   }
 
   .obsidian-crystal {
-    @apply w-[120px] h-[120px] relative filter drop-shadow-[0_8px_32px_rgba(124,58,237,0.4)] transition-all duration-400 ease-out;
+    @apply w-[120px] h-[120px] relative filter drop-shadow-[0_8px_32px_rgba(124,58,237,0.4)] transition-all duration-300 ease-out;
   }
 
   .extension-card:hover .obsidian-crystal {
