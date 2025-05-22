@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -296,11 +295,13 @@
   }
 
   .redis-logo {
-    @apply w-[120px] h-[120px] relative perspective-[1000px];
+    @apply w-[120px] h-[120px] relative;
+    perspective: 1000px;
   }
 
   .redis-cube {
-    @apply w-[80px] h-[80px] relative preserve-3d animate-rotate-cube my-5 mx-auto;
+    @apply w-[80px] h-[80px] relative my-5 mx-auto animate-rotate-cube;
+    transform-style: preserve-3d;
   }
 
   .extension-card:hover .redis-cube {
