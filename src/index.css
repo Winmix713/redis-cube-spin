@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -678,5 +677,77 @@
 
   .extension-card:hover .shape-green {
     @apply bg-[#1dd490] shadow-[0_0_16px_rgba(10,207,131,0.6)];
+  }
+
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+
+  .transform {
+    transform: translateZ(0);
+  }
+
+  .transform.translate-z-40px {
+    transform: translateZ(40px);
+  }
+
+  .transform.rotate-y-180.translate-z-40px {
+    transform: rotateY(180deg) translateZ(40px);
+  }
+
+  .transform.rotate-y-minus-90.translate-z-40px {
+    transform: rotateY(-90deg) translateZ(40px);
+  }
+
+  .transform.rotate-y-90.translate-z-40px {
+    transform: rotateY(90deg) translateZ(40px);
+  }
+
+  .transform.rotate-x-90.translate-z-40px {
+    transform: rotateX(90deg) translateZ(40px);
+  }
+
+  .transform.rotate-x-minus-90.translate-z-40px {
+    transform: rotateX(-90deg) translateZ(40px);
+  }
+
+  .ease-cubic-bezier-custom {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .clip-path-crystal {
+    clip-path: polygon(50% 0%, 100% 25%, 85% 75%, 50% 100%, 15% 75%, 0% 25%);
+  }
+
+  .animation-delay-500 {
+    animation-delay: 0.5s;
+  }
+
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+
+  .animation-delay-1500 {
+    animation-delay: 1.5s;
+  }
+
+  .animation-duration-3s {
+    animation-duration: 3s;
+  }
+
+  .animation-duration-2-5s {
+    animation-duration: 2.5s;
+  }
+
+  .text-shadow-\[0_0_4px_rgba\(16\,185\,129\,0\.4\)\] {
+    text-shadow: 0 0 4px rgba(16, 185, 129, 0.4);
+  }
+
+  .text-shadow-\[0_0_4px_rgba\(59\,130\,246\,0\.4\)\] {
+    text-shadow: 0 0 4px rgba(59, 130, 246, 0.4);
+  }
+  
+  .text-shadow-\[0_1px_2px_rgba\(0\,0\,0\,0\.3\)\] {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   }
 }
