@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -84,11 +85,79 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'rotateCube': {
+					'0%': {
+						transform: 'rotateX(0deg) rotateY(0deg)'
+					},
+					'100%': {
+						transform: 'rotateX(360deg) rotateY(360deg)'
+					}
+				},
+				'blink': {
+					'0%, 50%': {
+						opacity: '1'
+					},
+					'51%, 100%': {
+						opacity: '0'
+					}
+				},
+				'floatContainers': {
+					'0%, 100%': {
+						transform: 'translateY(0px) scale(1)'
+					},
+					'50%': {
+						transform: 'translateY(-6px) scale(1.02)'
+					}
+				},
+				'floatShapes': {
+					'0%, 100%': {
+						transform: 'translateY(0px) scale(1)'
+					},
+					'50%': {
+						transform: 'translateY(-10px) scale(1.05)'
+					}
+				},
+				'slideIn': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px) scale(0.95)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0) scale(1)'
+					}
+				},
+				'pulse': {
+					'0%, 100%': {
+						opacity: '0.3',
+						transform: 'scale(1)'
+					},
+					'50%': {
+						opacity: '0.6',
+						transform: 'scale(1.1)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px) rotate(0deg)'
+					},
+					'50%': {
+						transform: 'translateY(-8px) rotate(2deg)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'rotate-cube': 'rotateCube 6s infinite linear',
+				'rotate-cube-fast': 'rotateCube 3s infinite linear',
+				'blink': 'blink 1s infinite',
+				'float-containers': 'floatContainers 4s ease-in-out infinite',
+				'float-shapes': 'floatShapes 4s ease-in-out infinite',
+				'slideIn': 'slideIn 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) forwards',
+				'pulse': 'pulse 4s ease-in-out infinite',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},
