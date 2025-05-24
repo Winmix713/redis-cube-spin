@@ -30,14 +30,14 @@ const extensionCards = [
   {
     type: "obsidian" as const,
     title: "Obsidian",
-    description: "Capture information, manage tasks and pin notes to your menu bar.",
+    description: "Note-taking tool - Capture information, manage tasks and pin notes to your menu bar.",
     icon: <span className="text-2xl font-bold">O</span>,
     component: <ObsidianCrystal />
   },
   {
     type: "figma" as const,
-    title: "Figma File Search",
-    description: "Quickly open a Figma file from anywhere on your Mac.",
+    title: "Figma",
+    description: "Design tool - Quickly open a Figma file from anywhere on your Mac.",
     icon: (
       <div className="w-7 h-7 relative transition-transform duration-300 ease-out group-hover:scale-110 group-active:scale-90">
         <div className="absolute w-3 h-3 bg-[#ff5757] top-0 left-2 rounded-t-md transition-all duration-300 ease-out group-hover:bg-[#ff6b6b] group-hover:shadow-[0_0_12px_rgba(255,87,87,0.6)]"></div>
@@ -57,98 +57,98 @@ const extensionCards = [
   {
     type: "redis" as const,
     title: "Redis",
-    description: "Fast in-memory data structure store and caching solution.",
+    description: "In-memory data store - Fast in-memory data structure store and caching solution.",
     icon: <span className="text-2xl font-bold">R</span>,
     component: <RedisCube />
   },
   {
     type: "terminal" as const,
     title: "Terminal",
-    description: "Powerful command-line terminal with advanced features.",
+    description: "Command-line interface - Powerful command-line terminal with advanced features.",
     icon: <span className="text-xl font-bold">$</span>,
     component: <TerminalWindow />
   },
   {
     type: "docker" as const,
     title: "Docker",
-    description: "Containerize applications for consistent deployment.",
+    description: "Containerization platform - Containerize applications for consistent deployment.",
     icon: <span className="text-2xl">🐳</span>,
     component: <DockerContainers />
   },
   {
     type: "react" as const,
     title: "React",
-    description: "A JavaScript library for building user interfaces with component-based architecture.",
+    description: "JavaScript library - A JavaScript library for building user interfaces with component-based architecture.",
     icon: <span className="text-2xl">⚛️</span>,
     component: <ReactLogo />
   },
   {
     type: "vue" as const,
     title: "Vue",
-    description: "Progressive framework for building user interfaces with incremental adoption.",
+    description: "Progressive framework - Progressive framework for building user interfaces with incremental adoption.",
     icon: <span className="text-2xl font-bold">V</span>,
     component: <VueLogo />
   },
   {
     type: "angular" as const,
     title: "Angular",
-    description: "Platform for building mobile and desktop web applications.",
+    description: "Web application platform - Platform for building mobile and desktop web applications.",
     icon: <span className="text-2xl font-bold">A</span>,
     component: <AngularLogo />
   },
   {
     type: "svelte" as const,
     title: "Svelte",
-    description: "Cybernetically enhanced web apps with less code and no virtual DOM.",
+    description: "Cybernetically enhanced web apps - Cybernetically enhanced web apps with less code and no virtual DOM.",
     icon: <span className="text-2xl font-bold">S</span>,
     component: <SvelteLogo />
   },
   {
     type: "nextjs" as const,
     title: "Next.js",
-    description: "React framework for production with hybrid static & server rendering.",
+    description: "React framework - React framework for production with hybrid static & server rendering.",
     icon: <span className="text-2xl font-bold">N</span>,
     component: <NextjsLogo />
   },
   {
     type: "gatsby" as const,
     title: "Gatsby",
-    description: "React-based framework for building websites and apps with performance focus.",
+    description: "React-based framework - React-based framework for building websites and apps with performance focus.",
     icon: <span className="text-2xl font-bold">G</span>,
     component: <GatsbyLogo />
   },
   {
     type: "graphql" as const,
     title: "GraphQL",
-    description: "API query language that provides a complete description of the data.",
+    description: "API query language - API query language that provides a complete description of the data.",
     icon: <span className="text-2xl">◢</span>,
     component: <GraphQLLogo />
   },
   {
     type: "mongodb" as const,
     title: "MongoDB",
-    description: "Document-based NoSQL database with flexible schema and scalability.",
+    description: "NoSQL database - Document-based NoSQL database with flexible schema and scalability.",
     icon: <span className="text-2xl font-bold">M</span>,
     component: <MongoDBLogo />
   },
   {
     type: "postgres" as const,
     title: "PostgreSQL",
-    description: "Advanced open source relational database with extensive features.",
+    description: "Relational database - Advanced open source relational database with extensive features.",
     icon: <span className="text-2xl">🐘</span>,
     component: <PostgresLogo />
   },
   {
     type: "aws" as const,
     title: "AWS",
-    description: "Cloud platform offering compute power, database, content delivery, and more.",
+    description: "Cloud platform - Cloud platform offering compute power, database, content delivery, and more.",
     icon: <span className="text-2xl">☁️</span>,
     component: <AWSLogo />
   },
   {
     type: "firebase" as const,
     title: "Firebase",
-    description: "Platform for developing web and mobile applications with integrated tools.",
+    description: "Development platform - Platform for developing web and mobile applications with integrated tools.",
     icon: <span className="text-2xl">🔥</span>,
     component: <FirebaseLogo />
   },
